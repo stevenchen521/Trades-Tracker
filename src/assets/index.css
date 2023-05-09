@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  @apply box-border;
+}
+
+html {
+  @apply text-gray-200 bg-slate-900
+}
+
+
